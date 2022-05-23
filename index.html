@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" >
+    <link href="./css/select2.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Dependent Dropdowns</title>
+</head>
+<body class="bg-dark mt-5 ">
+    <div class="container pb-5">
+        <div class="row mb-4 d-flex justify-content-between">
+            <div class="col-md-4  mb-3">
+                <select class="form-select" id="language_id">
+                    <option></option>
+                  </select>
+            </div>
+            
+              
+            <div class="col-md-4  mb-3">
+                <select class="form-select" id="topic_id">
+                    <option></option>
+                  </select>
+            </div>
+
+            <div class="col-md-4  mb-3">
+                <select class="form-select" id="learn_id">
+                    <option></option>
+                  </select>
+            </div>
+
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" id="submit_btn" type="submit">Show Information</button>
+        </div>
+    </div>
+
+    <div id="iframe_container" class="container d-flex justify-content-center d-none">
+        <iframe id="iframe_id" src="" width="90%" height="500" title="">
+        </iframe>
+    </div>
+    
+</body>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/select2.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</html>
